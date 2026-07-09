@@ -11,7 +11,7 @@ prompt injection, RAG, tool calling, and production-style security controls.
 | Phase | Topic | Status |
 |-------|-------|--------|
 | 01 | Character Tokenizer | Done |
-| 02 | Unicode Security Lab | Planned |
+| 02 | Unicode Security Lab | Done |
 | 03 | BPE Tokenizer | Planned |
 | 04 | Embeddings | Planned |
 | 05 | Bigram Language Model | Planned |
@@ -31,6 +31,8 @@ prompt injection, RAG, tool calling, and production-style security controls.
 ```bash
 python3 01_char_tokenizer/main.py
 python3 01_char_tokenizer/tests.py
+python3 02_unicode_lab/main.py
+python3 02_unicode_lab/tests.py
 ```
 
 ## Philosophy
