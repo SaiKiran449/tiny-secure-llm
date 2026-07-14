@@ -12,7 +12,7 @@ prompt injection, RAG, tool calling, and production-style security controls.
 |-------|-------|--------|
 | 01 | Character Tokenizer | Done |
 | 02 | Unicode Security Lab | Done |
-| 03 | BPE Tokenizer | Planned |
+| 03 | BPE Tokenizer | Done |
 | 04 | Embeddings | Planned |
 | 05 | Bigram Language Model | Planned |
 | 06 | Self-Attention | Planned |
@@ -33,6 +33,8 @@ python3 01_char_tokenizer/main.py
 python3 01_char_tokenizer/tests.py
 python3 02_unicode_lab/main.py
 python3 02_unicode_lab/tests.py
+python3 03_bpe_tokenizer/main.py
+python3 03_bpe_tokenizer/tests.py
 ```
 
 ## Philosophy
